@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VanillaJs Project</title>
+    <link href="https://fonts.googleapis.com/css2?family=Darker+Grotesque:wght@400;500;600&family=Montserrat:ital,wght@1,500;1,600;1,700&family=Nanum+Gothic:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./resource/css/main.css">
+</head>
+<body>
+    
+    <div class="layout">
+
+        <div class="container">
+            
+            <div class="tab_area">
+
+                <div class="tab_title">
+                    <ul>
+                        <li>Current Info</li>
+                        <li class="active">Plan</li>
+                    </ul>
+                </div>
+
+                <div class="tab_conts">
+                    <ul>
+                        <li>
+
+                            <div class="bgbox">
+                                <div class="current_info">
+                                </div>
+    
+                                <div class="login_wrap">
+                                    <div class="beforelogin">
+                                        <!-- <span class="txt">Put your ID here :</span> -->
+                                        <form class="loginform">
+                                            <div class="ipt_wrap">
+                                                <input type="text" class="ipt" placeholder="Put your ID here">
+                                                <button type="button" class="btn btn_delete">텍스트 지우기</button>
+                                            </div>
+                                            <button type="button" class="btn btn_login">LOG IN</button>
+                                        </form>
+                                    </div>
+                                    <div class="afterlogin">
+                                        <span class="txt">WelCome!</span>
+                                        <span class="user"></span>
+                                    </div>
+                                </div>
+    
+                                <div class="phrase_wrap">
+                                    <div class="sentence"></div>
+                                    <div class="author"></div>
+                                </div>
+                            </div>
+
+                        </li>
+                        <li class="active">
+
+                            <div class="conts_box">
+
+                                <div class="cell">
+
+                                    <div class="todayweather">
+                                        <div class="location"></div>
+                                        <div class="temperature"></div>
+                                        <div class="weather"></div>
+                                        <div class="humidity"></div>
+                                    </div>
+
+                                    <div class="colorpicker">
+                                        <div class="board">
+                                            <div class="colorcheck"></div>
+                                            <ul class="colorlist">
+                                                <li></li>
+                                                <li></li>
+                                                <li></li>
+                                                <li></li>
+                                                <li></li>
+                                                <li></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+
+                                </div>
+
+
+                                <div class="cell">
+
+                                    <div class="todobox">
+                                        <form class="todoform">
+                                            <div class="ipt_wrap">
+                                                <input type="text" class="ipt" placeholder="What's your plan?">
+                                                <button type="button" class="btn btn_delete">텍스트 지우기</button>
+                                            </div>
+                                            <ul class="todo"></ul>
+                                        </form>
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+                        </li>
+                    </ul>
+                </div>
+
+            </div>    
+
+        </div>
+
+
+    
+    
+    </div>
+
+
+<script src="./resource/js/main.js"></script>
+<script src="./resource/js/phase.js"></script>
+<script src="./resource/js/weather.js"></script>
+<script src="./resource/js/randbg.js"></script>
+
+</body>
+</html>
